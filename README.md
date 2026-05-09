@@ -86,6 +86,8 @@ For a 200-room property running ~$200/night ADR, an 8.0% MAPE vs. a 14.5% MAPE t
 ---
 
 ## 📂 Repository Structure
+
+​```
 hospitality-demand-forecaster/
 ├── data/
 │   └── hotel_bookings.csv              # 3 years of synthetic daily bookings
@@ -96,6 +98,7 @@ hospitality-demand-forecaster/
 │   ├── 02_forecast_comparison.png      # Model performance
 │   └── 03_feature_importance.png       # Feature analysis
 └── README.md
+​```
 ---
 
 ## ▶️ How to Run
