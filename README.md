@@ -106,6 +106,7 @@ For a 200-room property running ~$200/night ADR, an 8.0% MAPE vs. a 14.5% MAPE t
 2. Click the **"Open in Colab"** button at the top
 3. Run all cells (Runtime → Run all)
 
+
 ### Option 2: Run locally
 ```bash
 pip install pandas numpy matplotlib seaborn statsmodels scikit-learn
