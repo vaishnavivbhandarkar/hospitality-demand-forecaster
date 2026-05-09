@@ -101,14 +101,21 @@ For a 200-room property running ~$200/night ADR, an 8.0% MAPE vs. a 14.5% MAPE t
 
 ## ▶️ How to Run
 
-### Option 1: Open in Google Colab (recommended)
-1. Open [`hospitality_demand_forecaster.ipynb`](notebooks/hospitality_demand_forecaster.ipynb) on GitHub
-2. Click the **"Open in Colab"** button at the top
-3. Run all cells (Runtime → Run all)
+### Option 1: Open in Google Colab (one click — recommended)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vaishnavivbhandarkar/hospitality-demand-forecaster/blob/main/notebooks/hospitality_demand_forecaster.ipynb)
 
-### Option 2: Run locally
+Click the badge above to open the notebook in Google Colab. Then run all cells (Runtime → Run all). No setup required.
+
+### Option 2: View on GitHub
+
+[📓 View notebook directly on GitHub](notebooks/hospitality_demand_forecaster.ipynb)
+
+### Option 3: Run locally
+
 ```bash
+git clone https://github.com/vaishnavivbhandarkar/hospitality-demand-forecaster.git
+cd hospitality-demand-forecaster
 pip install pandas numpy matplotlib seaborn statsmodels scikit-learn
 jupyter notebook notebooks/hospitality_demand_forecaster.ipynb
 ```
